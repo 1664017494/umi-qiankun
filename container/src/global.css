@@ -1,0 +1,17 @@
+#root-master, 
+#root,
+.ant-pro-layout {
+  height: 100%;
+  transform: translate(0, 0);
+  flex: 1;
+  min-height: 0;
+}
+
+.qiankun-micro-app-container {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  >div {
+    width: 100%;
+  }
+}
